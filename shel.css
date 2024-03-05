@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .pet{
+     font-size: 30px;
+     background-color: #003049;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding :20px;
+     gap: 30px;
+ }
+ 
+ .logo{
+     display: flex;
+     margin-right: 150px;
+     align-items: center;
+     font-weight: bold;
+     justify-content: center;
+     padding-right: 300px;
+     gap: 38px;
+ }
+ 
+ .sub{
+     font-size: 15px;
+     gap: 30px;
+ }
+ 
+ .sub:hover{
+     cursor: pointer;
+ }
+ 
+ .sub:hover{
+     text-decoration: underline;
+ }
+ .jpg{
+     display: flex;
+ }
+ .img{
+     height: 480px;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: end;
+     
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003049;
+    color: white;
+    min-width: 200px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 9px;
+  }
+  .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  .dropbtn{
+    font-size: 15px;
+  }
+
+  .last1{
+    display: flex;
+    background-color: #003049;
+  }
+
+  .card-body{
+    display: flex;
+    border: 1px solid #003049;
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #ffbe0b;
+}
+.card-title{
+    margin-left: 2%;
+    font-size: 2rem;
+    margin-top: 15px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.card-text{
+    margin-left: 2%;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: black;
+}
+
+.card{
+    padding: 20px;
+    
+}
+
+.dogo{
+   width:170px;
+   height: 170px;  
+   padding-left: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+}
+.mega{
+    
+    border: 1px solid #003049;
+    margin-top: 20px;
+    width: 98%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.supmega{
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.card-body1{
+    display: flex;
+    border: 1px solid #003049;
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #fb5607;
+}
+
+.card-body2{
+    display: flex;
+    border: 1px solid #003049;
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #ff006e;
+}
+.card-body3{
+    display: flex;
+    border: 1px solid #003049;
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #8338ec;
+}
+.card-body4{
+    display: flex;
+    border: 1px solid #003049;
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #3a86ff;
+}
+.card-body5{
+    display: flex;
+    border: 1px solid #003049;
+    width: 98%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #8ecae6;
+}
+.gyan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    font-weight: bold;
+    width: 58%;
+    padding-left: 270px;
+    color: red ;
+}
+.back{
+    
+    font-size: 30px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    
+}
+.click{
+    padding-left: 60px;
+    color: #283618;
+    font-weight: 900;
+    
+}
+
+.dogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #003049;
+}
+
+.nothing{
+    background-color: #C1121F;
+    color: white;
+    margin-top: 50px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last{
+    background-color:  #003049;
+    color: white;
+    list-style-type: none;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+.list{
+    margin-top: 10px;
+}
+.list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bol{
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
