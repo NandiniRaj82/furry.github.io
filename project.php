@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,8 @@
     <title>Pet Adoption </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="php" href="index.php">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--  update -->
 </head>
 <body>
     <div class="kelp">
@@ -52,7 +55,7 @@
             </div>
           </div>
             </div>
-            <div id="registerLink">Register</div>
+            <div id="registerLink" style="text-decoration: none;"><a id="registerLinkA" href="./register.php">Register</a></div>
         </div>
     
     </div>
@@ -199,7 +202,7 @@
             <li class="list">Cat Training</li>
             <li class="list">Other cat Information</li>
         </div>
-        <img src="qrcode_nandini-glitch.github.io.png" class="qrcode">
+        <img src="qrcode_nandiniraj82.github.io.png" class="qrcode">
     </div>
 </div>
 <div id="search-results"></div>
