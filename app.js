@@ -665,13 +665,8 @@ searchButton.addEventListener("click", () => {
     });
 });
 
-const registerLink = document.getElementById("registerLink");
+const isLoggedIn = document.cookie.split('; ').find(row => row.startsWith('isLoggedIn=')).split('=')[1];
 
-  // Add an event listener to the link
-  registerLink.addEventListener("click", function (event) {
-    // Prevent the default behavior of the link
-    event.preventDefault();
+document.getElementById('registerLink').innerHTML = 'Welcome';
 
-    // Redirect the user to the desired page
-    window.location.href = "http://localhost/project/register.php";
-  });
+  
